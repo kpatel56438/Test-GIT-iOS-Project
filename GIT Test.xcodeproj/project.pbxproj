@@ -21,6 +21,7 @@
 		F3A9035B19BAB636007CF8A9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A9033D19BAB636007CF8A9 /* UIKit.framework */; };
 		F3A9036319BAB636007CF8A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3A9036119BAB636007CF8A9 /* InfoPlist.strings */; };
 		F3A9036519BAB636007CF8A9 /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A9036419BAB636007CF8A9 /* GIT_TestTests.m */; };
+		F3A9037019BAC2A5007CF8A9 /* CPTEST.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A9036F19BAC2A5007CF8A9 /* CPTEST.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F3A9036019BAB636007CF8A9 /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		F3A9036219BAB636007CF8A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3A9036419BAB636007CF8A9 /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		F3A9036E19BAC2A5007CF8A9 /* CPTEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPTEST.h; sourceTree = "<group>"; };
+		F3A9036F19BAC2A5007CF8A9 /* CPTEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPTEST.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				F3A9034919BAB636007CF8A9 /* CPAppDelegate.m */,
 				F3A9034B19BAB636007CF8A9 /* Main.storyboard */,
 				F3A9034E19BAB636007CF8A9 /* CPViewController.h */,
+				F3A9036E19BAC2A5007CF8A9 /* CPTEST.h */,
+				F3A9036F19BAC2A5007CF8A9 /* CPTEST.m */,
 				F3A9034F19BAB636007CF8A9 /* CPViewController.m */,
 				F3A9035119BAB636007CF8A9 /* Images.xcassets */,
 				F3A9034019BAB636007CF8A9 /* Supporting Files */,
@@ -251,6 +256,7 @@
 			files = (
 				F3A9034619BAB636007CF8A9 /* main.m in Sources */,
 				F3A9034A19BAB636007CF8A9 /* CPAppDelegate.m in Sources */,
+				F3A9037019BAC2A5007CF8A9 /* CPTEST.m in Sources */,
 				F3A9035019BAB636007CF8A9 /* CPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
